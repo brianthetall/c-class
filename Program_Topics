@@ -3,7 +3,9 @@
 
 1) Write a program that exists in multiple files. From your main(), you should make calls to other functions you have written.
 
-2) Write a program that reads a lower case input FILE. The program should then output an upper case version of the FILE.
+) Write a program that opens a text-file. Print the contents of the file to the terminal.
+
+) Write a program that reads a lower case input FILE. The program should then output an upper case version of the FILE.
 
 ) Write a program that takes an arbitrary sized vector of numbers. Store the numbers in an array. The size of this array must be dynamically set; NOT KNOWN AT COMPILE TIME. 
   Example of program call: ./program 3 4 2  
