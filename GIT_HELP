@@ -5,3 +5,6 @@ TO PUSH (global)
 to push the repo to github:
 git push -u origin master
 you will then need to type your g-code password.
+
+http://gitref.org/
+
