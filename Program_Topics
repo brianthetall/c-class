@@ -20,3 +20,4 @@ Challenges:
 0) Write a program that exists in multiple files. From your main(), you should make calls to other functions you have written.
 1) Atoi converts 0-9 ASCII characters into int-type variables. Make a program, htoi, that includes hexadecimal digits: 0-F.
 2) Use multi-demensional pointers to store a list of names and numbers. Write a function that accepts the multi-deminsional pointer and re-arranges the names in alphabetical order
+3) Inverse the lines of a text file. Create a new file to store the output.
