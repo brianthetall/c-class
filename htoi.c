@@ -11,9 +11,12 @@ Similar to 'atoi'.
 int htoi(const char *s);
 int main(int argc,char *argv[])
 {
+  /*
   printf("%X\r\n",htoi("6fb0"));
   printf("%X\r\n",htoi("4"));
   printf("%X\r\n",htoi("DEAD"));
+  */
+  printf("%X=%d\r\n",htoi("5000"),htoi("5000"));
   return 0;
 }
 int htoi(const char *s)
