@@ -1,17 +1,17 @@
 import webapp2
-#import os
-#import index.html
+import mysql.connector
 class MainPage(webapp2.RequestHandler):
   def get(self):
-      self.response.headers['Content-Type'] = 'html'#'text/plain'
-#      self.response.out.write(os.path())
-#read in HTML file and write it.....
+      self.response.headers['Content-Type'] = 'html'
       index=open('index.html')
-#      for line in index.input():
       self.response.out.write(index.read())
 
 class SecondPage(webapp2.RequestHandler):
   def get(self):
+    sql=mysql.connector.connect(user='root',
+                                password='wordpass',
+                                host='localhost',
+                                database='users')
     self.response.headers['Content-Type'] = 'html'
     self.response.write("""
 <html><head>
